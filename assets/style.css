@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 * {
   padding: 0;
@@ -9,8 +9,12 @@
   max-width: 1400px;
 }
 .container nav h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
   width: 100px;
-  margin-left: 235px;
+  font-family:"Dela Gothic One" ;
+  margin-left: 260px;
 }
 .container nav {
   display: flex;
@@ -26,15 +30,15 @@
   margin-right: 5px;
   background-color: black;
   opacity: 0.1;
-  margin-left: 30px;
+  margin-left: 41px;
 }
 .container nav ul {
   display: flex;
-  width: 300px;
+  width: 280px;
   justify-content: space-between;
   margin-left: 10px;
   font-size: 18px;
-  margin-right: 440px;
+  margin-right: 393px;
 }
 .container nav ul a {
   text-decoration: none;
@@ -54,12 +58,14 @@
 .loginandSignUp h4 a{
     text-decoration: none;
     color: #000000;
+    font-family: 'Roboto', sans-serif;
 }
 .loginandSignUp button {
   width: 128.09px;
   height: 51.22px;
   color: white;
   font-size: 15px;
+  font-weight: 700;
   border-radius: 17px;
   background-color: #2b788b;
   border: none;
@@ -97,6 +103,7 @@
 .texts p {
   width: 200px;
   color: #2b788b;
+ font-family: 'Roboto', sans-serif;
   margin: 45px 1403px 620px 237px;
   text-transform: uppercase;
 }
@@ -112,9 +119,10 @@
   position: absolute;
   top: 400px;
   left: 233px;
-  font-family: "Montserrat";
-  font-size: 15.241px;
-  width: 320px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16.241px;
+  width: 300px;
   opacity: 4, 14;
   color: #585858;
 }
@@ -127,6 +135,7 @@
 }
 .btn p {
   width: 80px;
+  font-family: 'Roboto', sans-serif;
 }
 .btn button {
   width: 150px;
@@ -134,6 +143,7 @@
   border-radius: 14.0304px;
   color: #2b788b;
   height: 40px;
+  font-family: 'Roboto', sans-serif;
   border: none;
   font-size: 16px;
 }
@@ -161,8 +171,9 @@ border: 1.4192px solid #E0E0E0;
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 600px;
-    left: 240px;
+
+    top: 594px;
+    left: 247px;
     font-size: 19px;
 }
 .users  #p1{
