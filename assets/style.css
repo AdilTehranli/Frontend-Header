@@ -58,6 +58,9 @@ li a {
   border: none;
   color: white;
 }
+.container{
+  width: 100%;
+}
 .texts {
   width: 40%;
   margin-left: 12rem;
