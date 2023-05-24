@@ -1,181 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.container {
-  max-width: 1400px;
-}
-.container nav h2 {
-  align-items: center;
+.one {
+  width: 100%;
+  height: 70px;
+  display: flex;
   justify-content: center;
-  display: flex;
-  width: 100px;
-  font-family:"Dela Gothic One" ;
-  margin-left: 260px;
-}
-.container nav {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  margin-top: 40px;
-  justify-content: center;
-}
-.container nav hr {
-  margin: auto;
-  width: 3px;
-  height: 15px;
-  margin-right: 5px;
-  background-color: black;
-  opacity: 0.1;
-  margin-left: 41px;
-}
-.container nav ul {
-  display: flex;
-  width: 280px;
-  justify-content: space-between;
-  margin-left: 10px;
-  font-size: 18px;
-  margin-right: 393px;
-}
-.container nav ul a {
-  text-decoration: none;
-  color: #585858;
-}
-.loginandSignUp {
-  display: flex;
-  margin-top: 10px;
-  margin-right: 90px;
-}
-.loginandSignUp h4 {
-  width: 80px;
-  font-size: 18px;
-  margin-top: 18px;
-  margin-right: 10px;
-}
-.loginandSignUp h4 a{
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
-}
-.loginandSignUp button {
-  width: 128.09px;
-  height: 51.22px;
-  color: white;
-  font-size: 15px;
-  font-weight: 700;
-  border-radius: 17px;
-  background-color: #2b788b;
-  border: none;
-}
-.loginandSignUp h4 i {
-  height: 5px;
-  width: 5px;
 }
 
-.sec #img1 {
-  position: absolute;
-  left: 67.77%;
-  right: 4.31%;
-  top: 15.89%;
-  bottom: 7.29%;
-  height: 600.1px;
+.two {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.sec #img2 {
-  position: absolute;
-  left: 49.09%;
-  right: 5.1%;
-  top: 14.85%;
-  bottom: 18.43%;
-  height: 520.28px;
-  width: 620.03px;
+
+.head {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sec #img3 {
-  position: absolute;
-  left: 43.52%;
-  right: 65.37%;
-  top: 35.96%;
-  bottom: 39.25%;
-  height: 200.22px;
+.head hr {
+  height: 15px;
+  opacity: 0.5;
+  margin-left: 22px;
 }
-.texts p {
-  width: 200px;
-  color: #2b788b;
- font-family: 'Roboto', sans-serif;
-  margin: 45px 1403px 620px 237px;
-  text-transform: uppercase;
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.texts h1 {
-  position: absolute;
-  top: 175px;
-  left: 233px;
-  font-family: "Dela Gothic One";
-  font-size: 45.241px;
-  width: 450px;
+
+li a {
+  margin-left: 23px;
+  list-style: none;
+  text-decoration: none;
+  color: gray;
+  font-size: 17px;
+}
+
+.login_signup {
+  height: 110px;
+  width: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_signup p {
+  margin-right: 30px;
+}
+.login_signup button {
+  background-color: #2b788b;
+  border-radius: 14px;
+  width: 90px;
+  height: 35px;
+  border: none;
+  color: white;
+}
+.texts {
+  width: 40%;
+  margin-left: 12rem;
 }
 .texts h5 {
-  position: absolute;
-  top: 400px;
-  left: 233px;
-  font-weight: 700;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16.241px;
-  width: 300px;
-  opacity: 4, 14;
+  color: #2b788b;
+  font-size: 18px;
+  margin-top: 45px;
+}
+.texts h1 {
+  margin-bottom: 10px;
+  font-size: 53px;
+  margin-top: 23px;
+  font-family: "Dela Gothic One";
+}
+.texts #word {
+  font-size: 20px;
+  width: 323px;
+}
+.texts_photo {
+  display: flex;
+  justify-content: space-between;
+}
+.signinlearn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.signinlearn h4 {
+}
+.signinlearn button {
+  width: 135px;
+  height: 40px;
+  border-radius: 16px;
+  background-color: #c3dce3;
+  color: #2b788b;
+  border: none;
+}
+.image img {
+  margin-top: 40px;
+  height: 602px;
+  margin-right: 70px
+
+}
+.icons_number {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 375px;
+}
+
+.number1 span {
+  font-size: 50px;
+}
+.number2 span {
+  font-size: 50px;
+}
+.number1 p {
+  margin-left: 20px;
+  margin-top: 0;
   color: #585858;
 }
-.btn {
-  display: flex;
-  position: absolute;
-  align-items: center;
-  top: 470px;
-  left: 230px;
+.number2 p {
+  margin-left: 35px;
+  margin-top: 0;
+  color: #585858;
 }
-.btn p {
-  width: 80px;
-  font-family: 'Roboto', sans-serif;
-}
-.btn button {
-  width: 150px;
-  background: #c3dce3;
-  border-radius: 14.0304px;
-  color: #2b788b;
-  height: 40px;
-  font-family: 'Roboto', sans-serif;
-  border: none;
-  font-size: 16px;
-}
-.Numbers{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    top: 550px;
-    left: 230px;
-}
-.Numbers h1{
-font-family:"Dela Gothic One" ;
-    width: 75px;
-    font-size: 35px;
-}
-.Numbers hr{
-    margin-top: 15px;
-    margin-left: 90px;
-    height: 30px;
-margin-right: 60px;
-border: 1.4192px solid #E0E0E0;
-}
-.users{
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-
-    top: 594px;
-    left: 247px;
-    font-size: 19px;
-}
-.users  #p1{
-margin-left: 150px;
+.icons_number hr {
+  height: 35px;
+  margin-top: 23px;
+  opacity: 0.5;
 }
