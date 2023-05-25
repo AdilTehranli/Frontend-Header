@@ -6,7 +6,9 @@
   display: flex;
   justify-content: center;
 }
-
+.bars{
+  display: none;
+}
 .two {
   width: 80%;
   height: 100%;
@@ -132,4 +134,8 @@ li a {
   height: 35px;
   margin-top: 23px;
   opacity: 0.5;
+}
+.about{
+  display: flex;
+ 
 }

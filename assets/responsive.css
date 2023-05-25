@@ -1,44 +1,38 @@
-@media only screen and (max-width:992px){
-
-    .texts h1{
-        font-size: 50px;
-    }
-    .one{
-        width: 133%;
-    }
-    .two{
-        font-size: x-large;
-    }
-    .head ul{
-        font-size: xx-large;
-    }
-    .login_signup button{
-        height: 60px;
-    width: 150px;
-    font-size: smaller;
-    }
-    .texts{
-        margin-right: 20px;
-    }
-    .texts h5{
-        
-    font-size: x-large;
-    margin-top: 70px;
-    }
-    .texts h1{
-        font-size: 50px;
-        width: 427px;
-    }
-    .texts p{
-        font-size: x-large;
-        width: 400px;
-    }
-    .signinlearn{
-     font-size: x-large;
-    }
-    .signinlearn button{
-        height: 60px;
-        width: 165px;
-        font-size: large;
-    }
+@media only screen and (min-width:768px) and (max-width:992px){
+.one{
+    width: 194%;
 }
+.two{
+    width: 75%;
+}
+.login_signup{
+    font-size: x-large;
+}
+.login_signup button{
+    width: 131px;
+    font-size: large;
+    height: 52px;
+}
+.head hr{
+    display: none;
+}
+.about{
+    display: none;
+}
+.bars{
+    display: block;
+}
+.image img{
+    padding-left: 70px;
+    width: 709px;
+    height: 736px;
+    margin-top: 82px;
+    margin-left: 40px;
+}
+.texts h1{
+    font-size: 49px;
+    width: 459px;
+}
+}
+
+
